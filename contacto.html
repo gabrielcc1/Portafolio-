@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto y habilidades - Escríbeme o revisa mis habilidades">
+    <title>Contacto | Mi Portafolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__brand">
+            <h1 class="logo">PORTAFOLIO</h1>
+        </div>
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Inicio</a>
+            <a class="header__menu__link" href="about.html">Sobre mí</a>
+            <a class="header__menu__link" href="proyectos.html">Proyectos</a>
+            <a class="header__menu__link active" href="contacto.html">Contacto</a>
+        </nav>
+        <button class="modo-btn" title="Cambiar modo oscuro" aria-label="Toggle dark mode" onclick="toggleModo()">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+    <main>
+        <section class="contacto">
+            <div class="about__content">
+                <h1 class="section-title">Contacto & Habilidades</h1>
+                <div class="about__grid">
+                    <div class="about__text">
+                        <h2>Habilidades</h2>
+                        <ul class="skills-list">
+                            <li><strong>Data Science & AI:</strong> Python (Pandas, NumPy, Scikit-learn), Machine Learning (Modelos predictivos y clasificación), Manejo de IA & Prompt Engineering.</li>
+                            <li><strong>Frontend Development:</strong> HTML5, CSS3, JavaScript, React.js, Desarrollo Web Responsivo.</li>
+                            <li><strong>Infraestructura & Tools:</strong> Oracle Cloud Infrastructure (Certified), SQL, Git/GitHub, Linux (Terminal), Metodologías Ágiles (Scrum/Trello).</li>
+                        </ul>
+                        <h3>Resumen</h3>
+                        <p>Soy un perfil híbrido conformado por la intersección entre los datos y el desarrollo web. Mi fuerte es transformar insights analíticos en productos digitales funcionales, experiencia que consolidé trabajando en equipos multidisciplinarios bajo metodologías ágiles (No Country). Cuento con una certificación oficial de Oracle Cloud y formación intensiva en Data Science y Front End.</p>
+                    </div>
+                    <div class="about__image">
+                        <img src="assets/web.jpg" alt="Foto de perfil">
+                    </div>
+                </div>      
+         <section class="skills">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills__container">
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Data Science & AI</h3>
+                        <ul>
+                            <li><strong>Lenguajes:</strong>Python (Pandas, NumPy, Matplotlib).</li>
+                            <li><strong>Machine Learning:</strong> Scikit-learn, Modelos Predictivos, Limpieza de Datos (ETL).</li>
+                            <li><strong>IA:</strong> Manejo de herramientas de IA y Prompt Engineering para optimización de código.</li>
+                        </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Herramientas</h3>
+                        <ul>
+                            <li><strong>Cloud:</strong> Oracle Cloud Infrastructure (Certificación Oficial).</li>
+                            <li><strong>Base de Datos:</strong> SQL</li>
+                            <li><strong>DevTools:</strong> Git, GitHub, Linux, Docker, VS Code.</li>
+                            <li><strong>Metodologías:</strong> Scrum, Trello (Trabajo en equipo en entornos reales). </li>
+                        </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend & UI</h3>
+                   <ul>
+                        <li><strong>Core:</strong> HTML5, CSS3, JavaScript.</li>
+                        <li><strong>Frameworks:</strong> React.js, Desarrollo Web Responsivo.</li>
+                        <li><strong>Diseño:</strong> UX/UI básico para crear interfaces intuitivas y atractivas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contacto">
+            <h2 class="section-title">¿Listo para empezar?</h2>
+            <p class="contacto__texto">Tengo ganas de colaborar en proyectos emocionantes.</p>
+            <a href="mailto:cesc.caballero@gmail.com" class="btn btn-primary btn-large">Envíame un correo</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <p>&copy; 2026 Mi Portafolio. Todos los derechos reservados.</p>
+            <div class="footer__sociales">
+                <a href="https://github.com" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
