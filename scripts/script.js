@@ -156,7 +156,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (status) status.textContent = 'Preparando tu correo...';
             const subject = encodeURIComponent('Contacto desde portafolio: ' + name);
             const body = encodeURIComponent(message + '\n\nContacto: ' + name + ' - ' + email);
-            // Reemplaza el email en mailto por tu dirección real
             window.location.href = `mailto:cesc.caballero@gmail.com?subject=${subject}&body=${body}`;
         });
     }
